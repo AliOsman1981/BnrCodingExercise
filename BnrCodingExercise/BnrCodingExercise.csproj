@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>ccbea06a-43bd-45b3-af93-1c79f6e07cb4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BnrCodingExercise.Core\BnrCodingExercise.Core.csproj" />
+    <ProjectReference Include="..\BnrCodingExercise.Infrastructure\BnrCodingExercise.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
